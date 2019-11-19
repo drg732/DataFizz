@@ -9,19 +9,24 @@ let url = 'https://www.amazon.com/Sushi-Home-Mat-Table-Cookbook/dp/1623155975/re
 let directory_url = 'https://www.amazon.com/gp/site-directory'
 let primecat_url = 'https://www.amazon.com/books-used-books-textbooks/b?ie=UTF8&node=283155&ref_=sd_allcat_bo_t3'
 let catLabel_and_PrimecatLinks = [];
-let preset = 8; //we found this so the we can just crawl through the books category and not all of amazon 
+let preset = 118; //we found this so the we can just crawl through the books category and not all of amazon 
 let subcat_list2 = [];
 let Primecat_listlinks1 = [];
 go_to();
+//directorylist();
 
 
 async function go_to(){
     let p1 = await directorylist();
-    //console.log(p1);
+    let booksindex = getIndexOfK(p1, 'Books');
+    //console.log(x)
+    //console.dir(p1, {'maxArrayLength': null});
     //console.log(primecat_url)
-    let urlto2 = p1[preset][1][0];
+    let urlto2 = p1[booksindex][1];
+    //console.log(urlto2);
     let p2 = await get_subcat(urlto2);
     let urlto3 = p2[1];
+    //console.log(urlto3);
     let p3 =  await final_page_with_results(urlto3);
     for(var i = 0; i < p3.length; i++ ){   
     item_info(p3[i]);
@@ -30,22 +35,43 @@ async function go_to(){
 }
 
 
+// async function directorylist(){
+//     const $ = await raw_data(directory_url);
+//     //let catLabel_and_subcatLinks = [];
+//     $(".fsdDeptBox").each(function(){
+//         let $$ = cheerio.load(this);
+//         let title = $$('.fsdDeptTitle').text();
+//         Primecat_listlinks1 = [];
+//         $$('.fsdDeptLink').each(function(){
+//         Primecat_listlinks1.push('https://www.amazon.com' + $$(this).attr('href'));
+//         });
+//         catLabel_and_PrimecatLinks.push([title, Primecat_listlinks1]);
+//         //$('.fsdDeptLink')
+//     });
+//     return catLabel_and_PrimecatLinks;
+//     //console.log(catLabel_and_PrimecatLinks[preset][1]);
+    
+// }
+
+
 async function directorylist(){
     const $ = await raw_data(directory_url);
-    //let catLabel_and_subcatLinks = [];
-    $(".fsdDeptBox").each(function(){
-        let $$ = cheerio.load(this);
-        let title = $$('.fsdDeptTitle').text();
-        Primecat_listlinks1 = [];
-        $$('.fsdDeptLink').each(function(){
-        Primecat_listlinks1.push('https://www.amazon.com' + $$(this).attr('href'));
-        });
-        catLabel_and_PrimecatLinks.push([title, Primecat_listlinks1]);
-        //$('.fsdDeptLink')
+    $('a').each(function(){
+        let label = '';
+        let link = '';
+        link = $(this).attr('href');
+        label = $(this).text();
+        if (typeof link !== 'undefined'){
+            if (link[0] == '/'){
+                link = 'https://www.amazon.com' + $(this).attr('href');  //take out ''https://www.amazon.com' + ' if you want to use this function for any other website
+            }
+            if(link.startsWith('https://www.amazon.com')){
+            catLabel_and_PrimecatLinks.push([label, link]);
+        }
+        }
+
     });
     return catLabel_and_PrimecatLinks;
-    //console.log(catLabel_and_PrimecatLinks[preset][1]);
-    
 }
 
 //grab and collects subcategories on left panel
@@ -106,5 +132,13 @@ async function item_info(x){
         weight: $("li:contains(Shipping Weight)").text().split(/[:(]+/)[1].trim()
     }
     console.log(product);
+}
+
+function getIndexOfK(arr, k) {
+    for (var i = 0; i < arr.length; i++) {
+      if (arr[i][0] == 'Books'){
+        return i;
+      }
+    }
 }
 //------END products page raw data and specifics---//

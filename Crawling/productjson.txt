@@ -9,7 +9,7 @@
     "https://images-na.ssl-images-amazon.com/images/I/41obVntGmcL._AC_SX60_CR,0,0,60,60_.jpg"
   ],
   "weight": "1 pounds",
-  "sourceURL": "https://www.amazon.com/Warning/dp/1538718464/ref=lp_2_1_1/136-3134863-0541424?s=books&ie=UTF8&qid=1574404734&sr=1-1"
+  "sourceURL": "https://www.amazon.com/Warning/dp/1538718464/ref=lp_2_1_1/142-0008953-1296401?s=books&ie=UTF8&qid=1574428650&sr=1-1"
 },{
   "id": 2,
   "name": "Sam Houston and the Alamo Avengers: The Texas Victory That Changed American History: Brian Kilmeade: 9780525540533: Amazon.com: Books",
@@ -20,7 +20,7 @@
     "https://images-na.ssl-images-amazon.com/images/I/51wvP8MzWUL._AC_SX60_CR,0,0,60,60_.jpg"
   ],
   "weight": "1 pounds",
-  "sourceURL": "https://www.amazon.com/Sam-Houston-Alamo-Avengers-American/dp/0525540539/ref=lp_2_1_2/136-3134863-0541424?s=books&ie=UTF8&qid=1574404734&sr=1-2"
+  "sourceURL": "https://www.amazon.com/Sam-Houston-Alamo-Avengers-American/dp/0525540539/ref=lp_2_1_2/142-0008953-1296401?s=books&ie=UTF8&qid=1574428650&sr=1-2"
 },{
   "id": 3,
   "name": "Me: Elton John Official Autobiography: Elton John: 9781250147608: Amazon.com: Books",
@@ -31,7 +31,7 @@
     "https://images-na.ssl-images-amazon.com/images/I/41TJxOmPRjL._AC_SX60_CR,0,0,60,60_.jpg"
   ],
   "weight": "1.4 pounds",
-  "sourceURL": "https://www.amazon.com/Me-Elton-John-Official-Autobiography/dp/1250147603/ref=lp_2_1_3/136-3134863-0541424?s=books&ie=UTF8&qid=1574404734&sr=1-3"
+  "sourceURL": "https://www.amazon.com/Me-Elton-John-Official-Autobiography/dp/1250147603/ref=lp_2_1_3/142-0008953-1296401?s=books&ie=UTF8&qid=1574428650&sr=1-3"
 },{
   "id": 4,
   "name": "Educated: A Memoir: Tara Westover: 9780399590504: Amazon.com: Books",
@@ -42,7 +42,7 @@
     "https://images-na.ssl-images-amazon.com/images/I/41%2BaN7ZbS9L._AC_SX60_CR,0,0,60,60_.jpg"
   ],
   "weight": "1.4 pounds",
-  "sourceURL": "https://www.amazon.com/Educated-Memoir-Tara-Westover/dp/0399590501/ref=lp_2_1_4/136-3134863-0541424?s=books&ie=UTF8&qid=1574404734&sr=1-4"
+  "sourceURL": "https://www.amazon.com/Educated-Memoir-Tara-Westover/dp/0399590501/ref=lp_2_1_4/142-0008953-1296401?s=books&ie=UTF8&qid=1574428650&sr=1-4"
 },{
   "id": 5,
   "name": "The Plot Against the President: The True Story of How Congressman Devin Nunes Uncovered the Biggest Political Scandal in U.S. History: Lee Smith: 9781546085027: Amazon.com: Books",
@@ -53,7 +53,7 @@
     "https://images-na.ssl-images-amazon.com/images/I/51syG62FMhL._AC_SX60_CR,0,0,60,60_.jpg"
   ],
   "weight": "1.1 pounds",
-  "sourceURL": "https://www.amazon.com/Plot-Against-President-Congressman-Uncovered/dp/1546085025/ref=lp_2_1_5/136-3134863-0541424?s=books&ie=UTF8&qid=1574404734&sr=1-5"
+  "sourceURL": "https://www.amazon.com/Plot-Against-President-Congressman-Uncovered/dp/1546085025/ref=lp_2_1_5/142-0008953-1296401?s=books&ie=UTF8&qid=1574428650&sr=1-5"
 },{
   "id": 6,
   "name": "The Beautiful Ones: Prince: 9780399589652: Amazon.com: Books",
@@ -64,7 +64,7 @@
     "https://images-na.ssl-images-amazon.com/images/I/51osuJnG0CL._AC_SX60_CR,0,0,60,60_.jpg"
   ],
   "weight": "2 pounds",
-  "sourceURL": "https://www.amazon.com/Beautiful-Ones-Prince/dp/0399589651/ref=lp_2_1_6/136-3134863-0541424?s=books&ie=UTF8&qid=1574404734&sr=1-6"
+  "sourceURL": "https://www.amazon.com/Beautiful-Ones-Prince/dp/0399589651/ref=lp_2_1_6/142-0008953-1296401?s=books&ie=UTF8&qid=1574428650&sr=1-6"
 },{
   "id": 7,
   "name": "With All Due Respect: Defending America with Grit and Grace: Nikki R. Haley: 9781250266552: Amazon.com: Books",
@@ -76,7 +76,7 @@
     "https://images-na.ssl-images-amazon.com/images/I/41kq0YHyHML._AC_SX60_CR,0,0,60,60_.jpg"
   ],
   "weight": "1 pounds",
-  "sourceURL": "https://www.amazon.com/All-Due-Respect-Defending-America/dp/1250266556/ref=lp_2_1_7/136-3134863-0541424?s=books&ie=UTF8&qid=1574404734&sr=1-7"
+  "sourceURL": "https://www.amazon.com/All-Due-Respect-Defending-America/dp/1250266556/ref=lp_2_1_7/142-0008953-1296401?s=books&ie=UTF8&qid=1574428650&sr=1-7"
 },{
   "id": 8,
   "name": "The 5 Love Languages: The Secret to Love that Lasts: Gary Chapman: 9780802412706: Amazon.com: Books",
@@ -89,7 +89,7 @@
     "https://images-na.ssl-images-amazon.com/images/I/31Ub1Jq6bFL._AC_SX60_CR,0,0,60,60_.jpg"
   ],
   "weight": "8 ounces",
-  "sourceURL": "https://www.amazon.com/Love-Languages-Secret-that-Lasts/dp/080241270X/ref=lp_2_1_8/136-3134863-0541424?s=books&ie=UTF8&qid=1574404734&sr=1-8"
+  "sourceURL": "https://www.amazon.com/Love-Languages-Secret-that-Lasts/dp/080241270X/ref=lp_2_1_8/142-0008953-1296401?s=books&ie=UTF8&qid=1574428650&sr=1-8"
 },{
   "id": 9,
   "name": "Amazon.com: Catch and Kill: Lies, Spies, and a Conspiracy to Protect Predators (9780316486637): Ronan Farrow: Books",
@@ -101,7 +101,7 @@
     "https://images-na.ssl-images-amazon.com/images/I/41KokZ7KgiL._AC_SX60_CR,0,0,60,60_.jpg"
   ],
   "weight": "1.6 pounds",
-  "sourceURL": "https://www.amazon.com/Catch-Kill-Conspiracy-Protect-Predators/dp/0316486639/ref=lp_2_1_9/136-3134863-0541424?s=books&ie=UTF8&qid=1574404734&sr=1-9"
+  "sourceURL": "https://www.amazon.com/Catch-Kill-Conspiracy-Protect-Predators/dp/0316486639/ref=lp_2_1_9/142-0008953-1296401?s=books&ie=UTF8&qid=1574428650&sr=1-9"
 },{
   "id": 10,
   "name": "Becoming: Michelle Obama: 9781524763138: Amazon.com: Books",
@@ -112,20 +112,9 @@
     "https://images-na.ssl-images-amazon.com/images/I/414JfiBCutL._AC_SX60_CR,0,0,60,60_.jpg"
   ],
   "weight": "1.8 pounds",
-  "sourceURL": "https://www.amazon.com/Becoming-Michelle-Obama/dp/1524763136/ref=lp_2_1_10/136-3134863-0541424?s=books&ie=UTF8&qid=1574404734&sr=1-10"
+  "sourceURL": "https://www.amazon.com/Becoming-Michelle-Obama/dp/1524763136/ref=lp_2_1_10/142-0008953-1296401?s=books&ie=UTF8&qid=1574428650&sr=1-10"
 },{
   "id": 11,
-  "name": "The Man Who Solved the Market: How Jim Simons Launched the Quant Revolution: Gregory Zuckerman: 9780735217980: Amazon.com: Books",
-  "list_price": "$30.00",
-  "description": "NEW YORK TIMES BESTSELLERGregory Zuckerman, the bestselling author of The Greatest Trade Ever and The Frackers, answers the question investors have been asking for decades: How did Jim Simons do it?Shortlisted for the Financial Times/McKinsey Business Book of the Year AwardJim Simons is the greatest money maker in modern financial history. No other investor--Warren Buffett, Peter Lynch, Ray Dalio, Steve Cohen, or George Soros--can touch his record. Since 1988, Renaissance's signature Medallion fund has generated average annual returns of 66 percent. The firm has earned profits of more than $100 billion; Simons is worth twenty-three billion dollars.Drawing on unprecedented access to Simons and dozens of current and former employees, Zuckerman, a veteran Wall Street Journal investigative reporter, tells the gripping story of how a world-class mathematician and former code breaker mastered the market. Simons pioneered a data-driven, algorithmic approach that's sweeping the world.As Renaissance became a market force, its executives began influencing the world beyond finance. Simons became a major figure in scientific research, education, and liberal politics. Senior executive Robert Mercer is more responsible than anyone else for the Trump presidency, placing Steve Bannon in the campaign and funding Trump's victorious 2016 effort. Mercer also impacted the campaign behind Brexit.The Man Who Solved the Market is a portrait of a modern-day Midas who remade markets in his own image, but failed to anticipate how his success would impact his firm and his country. It's also a story of what Simons's revolution means for the rest of us.",
-  "product_dimensions": "6.3 x 1.2 x 9.2 inches",
-  "imageURLs": [
-    "https://images-na.ssl-images-amazon.com/images/I/51SymsQFwfL._AC_SX60_CR,0,0,60,60_.jpg"
-  ],
-  "weight": "1.3 pounds",
-  "sourceURL": "https://www.amazon.com/Man-Who-Solved-Market-Revolution/dp/073521798X/ref=lp_2_1_11/136-3134863-0541424?s=books&ie=UTF8&qid=1574404734&sr=1-11"
-},{
-  "id": 12,
   "name": "Finding Chika: A Little Girl, an Earthquake, and the Making of a Family: Mitch Albom: 9780062952394: Amazon.com: Books",
   "list_price": "$24.99",
   "description": "\"Mitch Albom has done it again with this moving memoir of love and loss. You can’t help but fall for Chika. A page-turner that will no doubt become a classic.” --Mary Karr, author of The Liars’ Club and The Art of MemoirFrom the #1 New York Times bestselling author of Tuesdays With Morrie comes Mitch Albom’s most personal story to date: an intimate and heartwarming memoir about what it means to be a family and the young Haitian orphan whose short life would forever change his heart. Chika Jeune was born three days before the devastating earthquake that decimated Haiti in 2010. She spent her infancy in a landscape of extreme poverty, and when her mother died giving birth to a baby brother, Chika was brought to The Have Faith Haiti Orphanage that Albom operates in Port Au Prince.  With no children of their own, the forty-plus children who live, play, and go to school at the orphanage have become family to Mitch and his wife, Janine. Chika’s arrival makes a quick impression. Brave and self-assured, even as a three-year-old, she delights the other kids and teachers. But at age five, Chika is suddenly diagnosed with something a doctor there says, “No one in Haiti can help you with.”  Mitch and Janine bring Chika to Detroit, hopeful that American medical care can soon return her to her homeland. Instead, Chika becomes a permanent part of their household, and their lives, as they embark on a two-year, around-the-world journey to find a cure. As Chika’s boundless optimism and humor teach Mitch the joys of caring for a child, he learns that a relationship built on love, no matter what blows it takes, can never be lost.  Told in hindsight, and through illuminating conversations with Chika herself, this is Albom at his most poignant and vulnerable. Finding Chika is a celebration of a girl, her adoptive guardians, and the incredible bond they formed—a devastatingly beautiful portrait of what it means to be a family, regardless of how it is made.",
@@ -135,5 +124,17 @@
     "https://images-na.ssl-images-amazon.com/images/I/517bfzTQ1rL._AC_SX60_CR,0,0,60,60_.jpg"
   ],
   "weight": "8.5 ounces",
-  "sourceURL": "https://www.amazon.com/Finding-Chika-Little-Earthquake-Making/dp/0062952390/ref=lp_2_1_12/136-3134863-0541424?s=books&ie=UTF8&qid=1574404734&sr=1-12"
+  "sourceURL": "https://www.amazon.com/Finding-Chika-Little-Earthquake-Making/dp/0062952390/ref=lp_2_1_11/142-0008953-1296401?s=books&ie=UTF8&qid=1574428650&sr=1-11"
+},{
+  "id": 12,
+  "name": "Amazon.com: IT'S ALL IN YOUR HEAD (9780062962430): Russ: Books",
+  "list_price": "$19.99",
+  "description": "An inspirational book by self-made musical superstar, Russ, reminding you that it starts with YOU, to believe in yourself, and to get out of your own way.Twenty-seven-year-old rapper, songwriter, and producer Russ walks his own path, at his own pace. By doing so, he proved that he didn’t need a major label to surpass over a billion streams on Spotify/Apple Music, get on Forbes’ 2019 “30 Under 30,” make the Forbes‘ “30 Under 30 Cash Kings” at number 20 for most earned, sell out arenas across the U.S. and around the globe, and become one of the most popular and engaged rappers right now. His method was simple: love and believe in yourself absolutely and work hard no matter what. In this memoir, Russ inspires readers to walk to their individual rhythms and beat their biggest obstacles: themselves.With chapters named after his most powerful and popular songs, IT'S ALL IN YOUR HEAD will reflect on the lessons he’s learned from his career, family, and relationships. He’ll push readers to bet on themselves, take those leaps of faith, and recognize struggles as opportunities. With illustrations throughout consistent with the brand Russ has built and his fan base loves, IT'S ALL IN YOUR HEAD will give readers an inside-look at the man and the motivation behind the music. A lover of books like The Alchemist and The Seven Spiritual Laws of Success, Russ delivers a short, potent, inspirational, raw, and honest book that gives readers a way to find self-belief and unlock their potential. Fans already rely on Russ as an inspiration of confidence; now, he is taking it to the next level with this book, which will contain lyrics from his music and visuals that reflect his inimitable style.",
+  "product_dimensions": "5 x 0.7 x 7.1 inches",
+  "imageURLs": [
+    "https://images-na.ssl-images-amazon.com/images/I/41BZ1ypTNmL._AC_SX60_CR,0,0,60,60_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51cO2lD-bTL._AC_SX60_CR,0,0,60,60_.jpg"
+  ],
+  "weight": "10.9 ounces",
+  "sourceURL": "https://www.amazon.com/ITS-ALL-YOUR-HEAD-Russ/dp/0062962434/ref=lp_2_1_12/142-0008953-1296401?s=books&ie=UTF8&qid=1574428650&sr=1-12"
 }]

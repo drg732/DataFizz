@@ -17,9 +17,22 @@ class RawPage {
                 return chtml;
             }
         }
-        catch (error){
-            console.error('OOPS');
-            //return error.response.status;
+        catch (error) {
+            // Error
+            if (error.response) {
+                /*
+                 * The request was made and the server responded with a
+                 * status code that falls out of the range of 2xx
+                 */
+                console.log('Bummer! Looks like we got a '+ error.response.status + '. Check the URL you are working with:');
+                console.log(url);
+                //console.log(error.response.status);
+                //console.log(error.response.headers);
+            }
+            else {
+                console.group('Looks like we didn\'t even get a response from the server we were trying to reach. You sure you have the right domain?');
+                console.log(url);
+            }
         }
     }
 }

@@ -25,8 +25,6 @@ const site = 'https://www.amazon.com'; //Preset for this exercise: Domain for ap
 const target = 'Books' //Preset for this exercise: target string to force navigation.
 const products = [];
 
-start_crawling();
-
 async function start_crawling() {
 
     //Creates an array of tuples in the form (label, URL) extracted from the starting page.
@@ -49,7 +47,7 @@ async function start_crawling() {
     //Provides a list of subcatgory URLs. This should work on on final search reult pages as long as the primary search results has the div ID ##mainResults
     //The results object runs extractProductLinks function that takes in a cheero object that is returned from the rawPage function
     let ListingPage = await results.extractProductLinks(await rawPage.toJQsearchable(productsListPage));
-    console.log('Got final page with products. Moving on...')
+    console.log('Got final listing page with products. Moving on...')
 
 
     //Creates an array of JSON stringified objects.
@@ -61,5 +59,7 @@ async function start_crawling() {
 
     //Converts products array to Valid JSON string that is written to a text file in the root directory of this project.
     jsonElementsArray.convertToJSON(products);  
-    console.log('We\'re done here. Check productjson.txt that was generated');
+    console.log('We\'re done here. Check Products_JSON.txt file that was generated in the current working directory');
 }
+
+start_crawling();

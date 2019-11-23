@@ -1,7 +1,8 @@
-
-
-//stores the the html in a jquery objects so we can use jQuery and selectors to pull the data we need
-//PUT IN AMAZON SPECIFIC CLASS
+    /**
+     * Receives cheerio object of a product page (Should work for any product page).
+    * Also receives the count and source url from the loop it is in to pass to the product object.
+    * Returns a strigified version of the product object
+    */
 class Product {
     async extractProductDetails($prod_chtml, idNum, prodURL) {
         const img_url_list = [];

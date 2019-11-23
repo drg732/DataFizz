@@ -1,0 +1,33 @@
+//There are some modules that can be extended to other parts other parts Amazon and some modules that can be extended to other websites. It is worth noting that several root category pages differ greatly from others.
+
+rawPage Class:
+The rawPage class would be the most modular piece. It takes in a URL, checks for 200 response code and then returns a cheerio objects. We want this cheerio object so that we can Parse it like jQuery.
+
+rootPage Class:
+The rootPage class would be next useful. It extracts all “a” elements from the page and pulls the respective text and “href” (URLs). It returns a list of tuples in the form (text, URL). If we were purely crawling without a target, you could remove the location search for “a” element and just grab all the URLs from the page. This could then be run recursively to collect all the urls of a site. 
+
+JsonElementArray Class:
+The JsonElementArray class can be used on any array where each element in the array is a JSON formatted object that has been stringified:
+
+Ex:     
+let product = {
+            id: idNum + 1,
+            name: NAME
+            list_price: PRICE
+            description: DESCRIPTION
+            product_dimensions: PRODUCT_DIMENSIONS
+            imageURLs: IMG_URL_LIST
+            weight: WEIGHT
+            sourceURL: SOURCEURL
+        }
+        return JSON.stringify(product, null, 2);
+    }
+
+
+ForcedPath Class:
+The ForcedPath can be used if you need to navigate to a URL with specific viewable text. It takes in an array of tuples where the first tuple element is text (String) and the second tuple element is the text’s respective URL (String). Returns the index of if it’s target to be used on the tuples array in the primary program.
+
+ 
+
+
+

@@ -20,7 +20,7 @@ const jsonElementsArray = new JsonElementsArray();
 const rawPage = new RawPage();
 const bookSubCatChoicePage = new BookSubCatChoicePage;
 
-const start_url = 'https://www.amazon.com/gp/site-directory' //Preset for this exercise: Starting Page
+const starting_url = 'https://www.amazon.com/gp/site-directory' //Preset for this exercise: Starting Page
 const site = 'https://www.amazon.com'; //Preset for this exercise: Domain for appending to URLs 
 const target = 'Books' //Preset for this exercise: target string to force navigation.
 const products = [];
@@ -30,7 +30,7 @@ start_crawling();
 async function start_crawling() {
 
     //Creates an array of tuples in the form (label, URL) extracted from the starting page.
-    let ListOfURLsOnRootPage = await rootPage.extractAllURLs(await rawPage.toJQsearchable(start_url), site);
+    let ListOfURLsOnRootPage = await rootPage.extractAllURLs(await rawPage.toJQsearchable(starting_url), site);
     console.log('Got all urls from first page. Moving On...')
 
     //Finds the tuple in ListOfURLsOnRootPage that contains our taget string in first element of tuple.
@@ -48,13 +48,13 @@ async function start_crawling() {
 
     //Provides a list of subcatgory URLs. This should work on on final search reult pages as long as the primary search results has the div ID ##mainResults
     //The results object runs extractProductLinks function that takes in a cheero object that is returned from the rawPage function
-    let ListOfProductURLs = await results.extractProductLinks(await rawPage.toJQsearchable(productsListPage));
+    let ListingPage = await results.extractProductLinks(await rawPage.toJQsearchable(productsListPage));
     console.log('Got final page with products. Moving on...')
 
 
     //Creates an array of JSON stringified objects.
-    for (var i = 0; i < ListOfProductURLs.length; i++) {
-        const prodURL = ListOfProductURLs[i];
+    for (var i = 0; i < ListingPage.length; i++) {
+        const prodURL = ListingPage[i];
         const $ = await rawPage.toJQsearchable(prodURL);
         products.push(await product.extractProductDetails($, i, prodURL));
     }

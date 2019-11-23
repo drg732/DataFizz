@@ -1,5 +1,11 @@
 const fs = require('fs');
 
+/**
+ * This receives an array of JSON stringified objects.
+ * Writes each product string object to a predetermined file (productjson.txt).
+ * The final rsult in the tixt file is valid JSON.
+ */
+
 class JsonElementsArray {
 
     convertToJSON(productsArray) {

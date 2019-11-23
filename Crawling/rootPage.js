@@ -1,13 +1,13 @@
 /**
- * Gets passed the starting URL
- * Grabs all URLS and respective text 
- * Returns an array where each object is a pair, [leabel, link]
+ * Receives cheerio objects and domain for the site we are working with.
+ * Extracts all URLs with the matchin domain and all URLs with leading "//"
+ * Appends domain to any URLs with leading "//"
+ * This should work for any site if you are wanting all URLs on a page
+ * Returns an array where each object is a pair, [label, URL] where both are string objects
 */
-//THIS STAYS
 class rootPage {
     async  extractAllURLs($rootPage, site) {
         let catLabel_and_PrimecatLinks = [];
-        //const $ = await raw_data(directory_url);
         $rootPage('a').each(function () {
             let label = '';
             let link = '';

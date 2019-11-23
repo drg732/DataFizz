@@ -2,10 +2,9 @@ const cheerio = require('cheerio');
 
 class BookSubCatChoicePage {
     /** 
-      * Receives URL (Should be the Books page)
-      * returns an array of urls -the urls are the subcategories under books
+      * Receives cheerio object (Must Have been the results of the result of an Ama)
+      * returns an array of urls -the urls are the subcategories on the books page
     */
-    //PUT IN AMAZON SPECIFIC CLASS
     async  getSubCatUrls($chtml) {
         let subcat_list2 = [];
         subcat_list2 = [];
